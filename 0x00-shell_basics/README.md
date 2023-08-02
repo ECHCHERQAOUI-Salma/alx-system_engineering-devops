@@ -14,3 +14,5 @@ ls -la . .. lists all files;hidden in current directory and parent, in long form
 file file_name prints the type of the file
 ln -s . _ls_ creates symbolic link in current directory
 cp -u copy when source is newer than destination
+cp [[:upper:]]* moves all files beginning with an uppercase letter
+not cp but mv
