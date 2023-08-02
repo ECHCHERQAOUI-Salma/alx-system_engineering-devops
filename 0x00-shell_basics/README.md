@@ -18,3 +18,4 @@ cp [[:upper:]]* moves all files beginning with an uppercase letter
 not cp but mv
 rm *~ deletes all files in the current working directory that end with ~
 mkdir -p makes directories with subdirectories at once
+ls -Fma Append indicator (one of */=>@|) to entries (hidden also), separated by commas, alpha ordered
