@@ -11,3 +11,4 @@ rm path/file deletes a file in a specific path
 rmdir deletes a directory
 cd - changes the working directory to the previous one.
 ls -la . .. lists all files;hidden in current directory and parent, in long format.
+file file_name prints the type of the file
