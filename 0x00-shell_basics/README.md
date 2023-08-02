@@ -16,3 +16,4 @@ ln -s . _ls_ creates symbolic link in current directory
 cp -u copy when source is newer than destination
 cp [[:upper:]]* moves all files beginning with an uppercase letter
 not cp but mv
+rm *~ deletes all files in the current working directory that end with ~
