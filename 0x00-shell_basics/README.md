@@ -8,3 +8,4 @@ mkdir path/dir_name creates a directory in a specific path
 mv dir path/dir moves a directory
 
 rm path/file deletes a file in a specific path
+rmdir deletes a directory
