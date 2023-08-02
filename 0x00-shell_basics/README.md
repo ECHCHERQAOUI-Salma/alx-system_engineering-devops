@@ -9,3 +9,4 @@ mv dir path/dir moves a directory
 
 rm path/file deletes a file in a specific path
 rmdir deletes a directory
+cd - changes the working directory to the previous one.
