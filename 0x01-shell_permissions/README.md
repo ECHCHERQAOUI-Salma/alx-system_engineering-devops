@@ -9,3 +9,4 @@ chmod 111 adds execution permission to the owner, the group owner and the other 
 chmod 007 adds all permissions to other users, no permissions for user and group
 chmod 753 sets -rwxr-x-wx permissions
 chmod --reference copy other file permissions
+chmod -R change permissions for folder and subfolders
