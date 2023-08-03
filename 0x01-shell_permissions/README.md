@@ -14,3 +14,4 @@ mkdir -m 751 my_dir creates directory and set his permissions
 chgrp changes the group ownership
 sudo chown vincent:staff changes user and group ownersship
 sudo chown -h changes user and group ownersship of a symbolic link
+sudo chown --from= changes ownership based one previous one
