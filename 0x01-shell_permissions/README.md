@@ -6,3 +6,4 @@ touch creates an empty file.
 chmod u+x file_name adds execute permission to the owner of the file
 chmod u+x,g+x,o+r add multiple permissions
 chmod 111 adds execution permission to the owner, the group owner and the other users
+chmod 007 adds all permissions to other users, no permissions for user and group
