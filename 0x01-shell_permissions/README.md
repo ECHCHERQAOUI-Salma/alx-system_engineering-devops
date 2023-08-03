@@ -12,3 +12,4 @@ chmod --reference copy other file permissions
 chmod -R change permissions for folder and subfolders
 mkdir -m 751 my_dir creates directory and set his permissions
 chgrp changes the group ownership
+sudo chown vincent:staff changes user and group ownersship
