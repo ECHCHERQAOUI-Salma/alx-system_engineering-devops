@@ -3,3 +3,4 @@ echo displays line of text
 cat concatenate files and print on the standard output
 "cat" concatenate files and print on the standard output
 tail displays the last 10 lines of a file
+head displays the first 10 lines of a file
