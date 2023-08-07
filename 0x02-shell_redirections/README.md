@@ -13,3 +13,5 @@ find . -name *.js -type f -delete deletes js files from directory and it's subdi
 find . -type d | wc -l counts the numberd of directories and subdirectories in current folder
 ls -lt | head list the newer 10 files each in line
 ls -RAl | grep drw | wc -l do the task 11
+sort | uniq -u takes a list of words as input and prints unique ones
+grep root /etc/passwd Display lines containing the patten “root” from passwd
