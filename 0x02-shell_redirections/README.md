@@ -23,3 +23,4 @@ Display all lines of the file /etc/ssh/sshd_config starting with a letter
 tr A Z | tr c e Replace all characters A and c from input to Z and e respectively
 tr -d c | tr -d C removes all letters c and C from input
 rev reverse its input.
+cat /etc/passwd | cut -d: -f 1,6 | sort  displays all users and their home directories, sorted by users
