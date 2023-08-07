@@ -25,3 +25,4 @@ tr -d c | tr -d C removes all letters c and C from input
 rev reverse its input.
 cat /etc/passwd | cut -d: -f 1,6 | sort  displays all users and their home directories, sorted by users
 find . -empty | rev | cut -d/ -f 1 finds all empty files and directories in the current directory and all sub-directories
+lists all the files with a .gif
