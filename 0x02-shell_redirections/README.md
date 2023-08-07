@@ -15,3 +15,4 @@ ls -lt | head list the newer 10 files each in line
 ls -RAl | grep drw | wc -l do the task 11
 sort | uniq -u takes a list of words as input and prints unique ones
 grep root /etc/passwd Display lines containing the patten “root” from passwd
+grep bin /etc/passwd | wc -l Display the number of lines that contain “bin” in passwd
