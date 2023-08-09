@@ -1,0 +1,2 @@
+#!/bin/bash
+cat | tail -n +2 | sort | cut -d"-" -f 1 | uniq -c | sort -nr | tr " " "~" | cut -d"~" -f 8 | head -n 11

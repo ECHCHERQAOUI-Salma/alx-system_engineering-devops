@@ -27,3 +27,4 @@ cat /etc/passwd | cut -d: -f 1,6 | sort  displays all users and their home direc
 find . -empty | rev | cut -d/ -f 1 finds all empty files and directories in the current directory and all sub-directories
 lists all the files with a .gif
 decodes acrostics that use the first letter of each line.
+`103-the_biggest_fan` Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
