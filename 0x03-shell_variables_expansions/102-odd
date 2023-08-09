@@ -1,2 +1,2 @@
 #!/bin/bash
-paste a -d "^\n" -s | cut -d"^" -f 1
+paste -d "^\n" -s | cut -d"^" -f 1
